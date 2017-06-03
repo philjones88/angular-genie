@@ -1,10 +1,10 @@
 {
-  "name": "angular-lib-starter",
+  "name": "angular-genie",
   "version": "0.0.1",
-  "description": "Starter to make Angular libs",
-  "main": "bundle.js",
-  "jsnext:main": "lib.module.js",
-  "module": "index.js",
+  "description": "Angular 2+ version of AngularJS Genie",
+  "main": "angular-genie.js",
+  "jsnext:main": "angular-genie.module.js",
+  "module": "angular-genie.js",
   "types": "index.d.ts",
   "scripts": {
     "tslint": "tslint \"src/**/*.ts\"",

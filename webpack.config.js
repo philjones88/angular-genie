@@ -10,7 +10,7 @@ module.exports = (envOptions = {}) => {
     entry: root('./src/index.ts'),
     output: {
       path: root('dist'),
-      filename: 'bundle.js'
+      filename: 'angular-genie.js'
     },
     target: 'web',
     externals: [moduleExternals()],
